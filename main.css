@@ -1,0 +1,85 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar {
+  background-color: #9673e4;
+}
+
+.carousel-item img,
+#encomendas .col-md-4 img
+{
+  object-fit: cover; 
+  height: 400px; 
+}
+
+#nossos-doces .col-md-3 img {
+  object-fit: cover; 
+  height: 300px
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: #512b52;
+}
+
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #635274;
+}
+
+.section-title {
+  font-family: 'Emilys Candy', serif;
+}
+
+#sobre-nos,
+#nossos-doces{
+  background-color: #63527469;
+}
+
+.text-colored {
+  color: #512b52;
+
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+  background-color: #635274;
+  color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+  color: #635274;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  height: 60px; 
+  line-height: 60px; 
+  background-color: #9673e4;
+  text-align: center;
+}
+
+
+@media (max-width: 767px) {
+  .carousel-item img{
+    height: 280px;
+  }
+}
